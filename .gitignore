@@ -1,0 +1,37 @@
+# ignore all jpg files
+*.jpg
+
+#ignore all pycache files
+*.pycache
+*.pyc
+
+#ignore all pickle files
+*.pickle
+*.test
+*.train
+*.dev
+*.val
+
+#ignore all excel files
+*.xls
+*.xlsx
+
+#ignore all log files
+#*.log
+#*validations.txt
+
+#ignore all ckpt files
+*.ckpt
+
+#ignore all code-workspace files
+*.code-workspace
+
+#ignore all data files
+PHEONIX2014T/
+"Pickle maker"/*/excels/*.xls
+"Pickle maker"/*/excels/*.xlsx
+"Pickle maker"/*/"Final folder for frames"/*
+"Pickle maker"/*/Pickles/*
+
+#ignore all tensorboard files
+/sign_sample_model/tensorboard/

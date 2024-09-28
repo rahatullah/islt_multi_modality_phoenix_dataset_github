@@ -1,0 +1,519 @@
+dev/11August_2010_Wednesday_tagesschau-2|im süden ist es noch .
+dev/11August_2010_Wednesday_tagesschau-3|am tag ist es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur und gewitter .
+dev/11August_2010_Wednesday_tagesschau-8|der wind weht schwach bis mäßig an der nordsee und gewittern auch frisch und es auch frisch und gewittern auch frisch .
+dev/25October_2010_Monday_tagesschau-22|am freitag ist es im norden und nordwesten teilweise teilweise teilweise teilweise teilweise teilweise teilweise windig .
+dev/05May_2011_Thursday_tagesschau-25|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/15December_2010_Wednesday_tagesschau-40|im norden und nordwesten regen .
+dev/10March_2011_Thursday_heute-51|und da wird es noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen ein bisschen bisschen bisschen bisschen ein bisschen ein bisschen bisschen bisschen bis minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/14August_2009_Friday_tagesschau-72|morgen temperaturen und minus zwei grad im norden und minus zwei grad .
+dev/26January_2010_Tuesday_heute-107|guten abend liebe zuschauer .
+dev/12February_2010_Friday_tagesschau-125|morgen ist es noch freundlich und da etwas etwas sonne und da etwas sonne .
+dev/12February_2010_Friday_tagesschau-126|morgen ist es im norden und osten und da etwas schnee und da regnet es auch schnee .
+dev/01November_2010_Monday_tagesschau-140|im süden und nordwesten regnet es noch etwas regen und da regnet es auch etwas schnee .
+dev/28November_2011_Monday_tagesschau-165|am tag ist es im süden und osten und da etwas schnee .
+dev/28November_2011_Monday_tagesschau-168|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/28November_2011_Monday_tagesschau-172|am tag regnet es im süden und osten und nordwesten regnet es noch etwas regen .
+dev/24November_2011_Thursday_heute-222|im süden ist es heute nacht noch noch klar und da regnet es trocken und da klar und da klar .
+dev/24November_2011_Thursday_heute-223|und es wird es wird es noch noch noch noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/19October_2009_Monday_tagesschau-229|und nun die wettervorhersage für morgen donnerstag den oktober .
+dev/12July_2010_Monday_heute-244|im süden und osten und da ist es noch noch noch noch noch noch noch klar und da klar und es wird es wird es wird es noch noch noch noch klar und da klar und da klar und da
+dev/21August_2011_Sunday_tagesschau-264|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/21August_2011_Sunday_tagesschau-265|im norden und nordwesten ist es heute nacht noch klar und da regnet es klar und da regnet es klar .
+dev/22November_2010_Monday_heute-279|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch noch noch schnee und da da da da da wird es wird es wird es wird es wird es wird es auch noch noch
+dev/14October_2010_Thursday_tagesschau-298|am donnerstag ist es im osten und osten und da regen und da regnet es etwas schnee und da schnee .
+dev/14October_2010_Thursday_tagesschau-299|die aussichten .
+dev/06April_2010_Tuesday_tagesschau-308|der wind weht schwach bis mäßig an der nordsee bis mäßig .
+dev/12May_2010_Wednesday_tagesschau-318|im süden und süden regnet es noch noch noch noch noch schauer und gewitter und gewitter und gewitter .
+dev/17April_2010_Saturday_tagesschau-396|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/01October_2009_Thursday_tagesschau-417|morgen temperaturen und minus minus zwei grad im norden und minus zwei grad .
+dev/04May_2010_Tuesday_heute-453|im süden und osten und osten und da regen und da ist es noch noch noch noch noch etwas regen .
+dev/30January_2013_Wednesday_tagesschau-475|am freitag ist es noch freundlich und gewitter und gewitter .
+dev/30January_2013_Wednesday_tagesschau-477|am sonntag ist es im osten und osten und nordwesten regen und da regnet es etwas schnee und da regen .
+dev/14October_2009_Wednesday_tagesschau-529|im norden und nordwesten bis mäßig an der nordsee .
+dev/20November_2011_Sunday_tagesschau-536|die aussichten ist es noch freundlich und da etwas schnee oder schnee .
+dev/25February_2011_Friday_tagesschau-575|am tag ist es freundlich und trocken und trocken .
+dev/18October_2010_Monday_heute-629|im süden ist es freundlich und trocken .
+dev/18October_2010_Monday_heute-630|guten abend .
+dev/06October_2010_Wednesday_tagesschau-632|und da wird es noch noch noch noch noch ein bisschen bisschen ein paar paar wolken und da ist es noch noch etwas schnee und da ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen ein
+dev/06October_2010_Wednesday_tagesschau-640|und nun die wettervorhersage für morgen donnerstag den alpen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/04August_2011_Thursday_tagesschau-718|und nun die wettervorhersage für morgen donnerstag den nächsten tagen tagen .
+dev/21October_2009_Wednesday_tagesschau-735|am tag ist es im osten und osten und da regnet es noch etwas regen und da regnet es noch schnee und da regnet es auch schnee und da etwas schnee und da regnet es etwas schnee und da etwas
+dev/29May_2011_Sunday_tagesschau-764|der wind weht schwach bis mäßig an der nordsee .
+dev/19April_2010_Monday_heute-781|im süden ist es freundlich und trocken und trocken und trocken .
+dev/30August_2011_Tuesday_heute-783|guten abend liebe zuschauer .
+dev/30August_2011_Tuesday_heute-784|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da ist es noch noch noch noch noch noch noch noch noch noch noch noch noch noch schnee und da da da da und da da da da da
+dev/04December_2009_Friday_tagesschau-841|im norden und nordwesten bis mäßig an der nordsee bis mäßig an der nordsee und es auch frisch .
+dev/22January_2010_Friday_tagesschau-907|im süden ist es noch noch freundlich und da klar und da regnet es trocken und da trocken und da trocken .
+dev/28September_2012_Friday_tagesschau-916|im süden und nordwesten heute nacht bis minus grad im süden und nordwesten und da regnet es auch etwas regen .
+dev/28September_2012_Friday_tagesschau-917|am tag ist es .
+dev/28September_2012_Friday_tagesschau-922|im süden und süden heute nacht noch noch schnee und es auch noch etwas regen und da regnet es auch klar und da auch klar .
+dev/03February_2011_Thursday_tagesschau-938|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/03February_2011_Thursday_tagesschau-939|morgen temperaturen bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/04April_2011_Monday_heute-965|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/04April_2011_Monday_heute-966|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/23November_2011_Wednesday_tagesschau-973|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/23November_2011_Wednesday_tagesschau-980|im süden und süden ist es heute nacht noch noch etwas etwas regen und da regnet es klar und da klar und da etwas etwas regen und da etwas schnee und da regnet es klar und da etwas etwas etwas
+dev/23November_2011_Wednesday_tagesschau-984|am tag ist es im norden und nordwesten noch regen und gewitter und gewitter und gewitter .
+dev/19August_2010_Thursday_tagesschau-995|am dienstag ist es im süden und osten und da regnet es freundlich und da regnet es freundlich .
+dev/29October_2009_Thursday_tagesschau-1011|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/06May_2010_Thursday_heute-1054|heute nacht ist es meist trocken .
+dev/05October_2011_Wednesday_heute-1069|guten abend liebe zuschauer .
+dev/23May_2011_Monday_tagesschau-1097|im norden und nordwesten ist es noch freundlich und da wolken und da regen .
+dev/19May_2010_Wednesday_heute-1119|im süden und süden ist es noch noch noch noch etwas sonne und da etwas regen und da ist es auch mal sonne und da ist es auch mal sonne und da ist es auch mal sonne und da etwas
+dev/09August_2009_Sunday_tagesschau-1179|morgen ist es noch noch ein paar schauer und es wird es noch noch noch noch regen .
+dev/09August_2009_Sunday_tagesschau-1180|im norden .
+dev/09August_2009_Sunday_tagesschau-1181|im süden ist es noch freundlich und da freundlich und da ist es trocken .
+dev/09August_2009_Sunday_tagesschau-1182|und nun die wettervorhersage für morgen donnerstag den alpen und gewitter .
+dev/05July_2010_Monday_tagesschau-1200|am tag ist es meist freundlich und da sonne und da sonne und da sonne und da sonne .
+dev/20June_2011_Monday_tagesschau-1253|das tief über der mitte und da regen .
+dev/21June_2011_Tuesday_tagesschau-1264|im süden und süden heute nacht noch regen im süden und nordwesten regnet es noch etwas regen .
+dev/12July_2011_Tuesday_heute-1274|und es wird es noch noch noch noch ein paar schauer und gewitter und gewitter .
+dev/12July_2011_Tuesday_heute-1279|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da regnet es noch noch noch noch noch schnee und da regen und da regnet es auch schnee und da regnet es auch noch noch noch noch noch schnee
+dev/12July_2011_Tuesday_heute-1280|und es wird es wird es trocken .
+dev/12July_2011_Tuesday_heute-1281|es wird es wird es noch trocken .
+dev/25May_2010_Tuesday_tagesschau-1294|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/18April_2011_Monday_tagesschau-1316|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da ist es noch noch noch noch noch noch etwas sonne und da etwas sonne und da sonne und da sonne und da ist es auch mal sonne und
+dev/31January_2010_Sunday_tagesschau-1333|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/22August_2010_Sunday_tagesschau-1345|der wind weht schwach bis mäßig an der nordsee und gewittern auch frisch und es auch frisch und gewittern auch frisch .
+dev/02October_2009_Friday_tagesschau-1354|und nun die wettervorhersage für morgen donnerstag den nächsten tagen tagen und da ist es auch noch schnee .
+dev/02October_2009_Friday_tagesschau-1355|und nun die wettervorhersage für morgen .
+dev/02October_2009_Friday_tagesschau-1362|am tag regnet es im süden und osten und da regnet es etwas etwas schnee und da regnet es auch schnee .
+dev/10January_2011_Monday_heute-1375|und es wird es noch noch noch noch noch noch noch noch noch noch regen und da regen und da regen und da regen .
+dev/13August_2011_Saturday_tagesschau-1409|im süden und süden regnet es auch noch noch noch klar und gewitter und es auch klar und gewitter .
+dev/13August_2011_Saturday_tagesschau-1410|der wind weht schwach bis mäßig an der nordsee bis mäßig .
+dev/23December_2010_Thursday_tagesschau-1430|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/10August_2010_Tuesday_heute-1455|im süden und osten und da da da da da ist es heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/25January_2010_Monday_heute-1467|im süden und süden noch noch schnee und da da ist es noch noch noch noch noch noch schnee und da noch schnee und da auch schnee und da da da da klar und da schnee und da da schnee
+dev/30July_2010_Friday_tagesschau-1520|und nun die wettervorhersage für morgen tag minus minus minus minus zwei grad .
+dev/06December_2011_Tuesday_heute-1553|es wird es wird es .
+dev/06December_2011_Tuesday_heute-1554|guten abend .
+dev/19July_2009_Sunday_tagesschau-1568|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da ist es wird es wird es noch noch freundlich .
+dev/28November_2011_Monday_heute-1587|morgen ist es dann noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen ein bisschen bisschen bisschen bis minus minus minus minus minus minus minus minus grad .
+dev/07February_2011_Monday_tagesschau-1612|heute nacht ist es im norden und osten und es auch frisch an der nordsee bis mäßig .
+dev/07February_2011_Monday_tagesschau-1613|im norden und nordwesten bis mäßig an der nordsee auch frisch und es auch frisch .
+dev/07April_2010_Wednesday_heute-1631|im süden ist es heute nacht noch noch schnee und da regnet es trocken und da regnet es trocken .
+dev/07April_2010_Wednesday_heute-1632|guten abend .
+dev/03July_2011_Sunday_tagesschau-1673|am donnerstag ist es freundlich und es freundlich und auch freundlich .
+dev/03July_2011_Sunday_tagesschau-1674|am sonntag ist es .
+dev/13April_2011_Wednesday_tagesschau-1683|im süden ist es heute nacht noch freundlich und da etwas sonne und da etwas wolken und da etwas wolken und da etwas etwas etwas sonne .
+dev/12January_2011_Wednesday_tagesschau-1732|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/09March_2011_Wednesday_heute-1742|der wind weht schwach bis mäßig und es auch auch frisch und da ist es auch auch frisch und da auch sturmböen .
+dev/20November_2010_Saturday_tagesschau-1823|am tag regnet es im osten und osten und osten regen und da regnet es windig .
+dev/20November_2010_Saturday_tagesschau-1824|im süden ist es noch schnee und schnee .
+dev/15February_2010_Monday_tagesschau-1843|im norden und nordwesten regnet es auch schnee .
+dev/14July_2010_Wednesday_tagesschau-1865|am tag ist es .
+dev/14April_2010_Wednesday_heute-1879|guten abend liebe zuschauer .
+dev/14April_2010_Wednesday_heute-1880|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/14April_2010_Wednesday_heute-1881|und es wird es wird es wird es wird es wird es wird es wird es wird auch noch noch kühler .
+dev/14April_2010_Wednesday_heute-1892|guten abend liebe zuschauer .
+dev/31May_2011_Tuesday_heute-1899|heute nacht ist es noch noch noch noch noch noch noch noch noch noch noch noch klar und da klar und da da da da klar und da da da da da da da da da da da da ein
+dev/28December_2011_Wednesday_tagesschau-1911|am tag regnet es im süden und osten und da regnet es noch noch noch etwas regen und gewitter .
+dev/09January_2010_Saturday_tagesschau-1919|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/11May_2010_Tuesday_tagesschau-1960|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten oktober .
+dev/11May_2010_Tuesday_tagesschau-1964|im süden ist es noch noch noch schnee und da regnet es noch noch noch etwas schnee und da regnet es auch schnee und da regnet es auch schnee .
+dev/11May_2010_Tuesday_tagesschau-1971|am sonntag ist es im norden und nordwesten teilweise freundlich und da regnet es windig .
+dev/03July_2009_Friday_tagesschau-2003|am tag ist es im süden und osten und gewitter und gewitter und gewitter .
+dev/03July_2009_Friday_tagesschau-2008|und nun die wettervorhersage für morgen donnerstag den alpen und gewitter und gewitter und gewitter und gewitter und gewitter .
+dev/02November_2010_Tuesday_tagesschau-2031|im süden ist es noch freundlich und trocken und da trocken und da trocken und da trocken .
+dev/02November_2010_Tuesday_tagesschau-2039|am sonntag ist es wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder kühler .
+dev/22January_2011_Saturday_tagesschau-2080|der wind weht schwach bis mäßig an der nordsee bis mäßig .
+dev/22January_2011_Saturday_tagesschau-2082|und nun die wettervorhersage für morgen tag minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/06July_2009_Monday_tagesschau-2109|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/22April_2010_Thursday_heute-2120|am tag ist es noch noch noch etwas schnee und da regnet es noch etwas etwas schnee und da etwas regen und da etwas regen und da etwas regen und da etwas regen und da ist es auch mal sonne
+dev/22April_2010_Thursday_heute-2124|es wird es wird .
+dev/22April_2010_Thursday_heute-2125|guten abend .
+dev/17October_2009_Saturday_tagesschau-2127|im süden und osten und osten und da regen im süden und osten und da regnet es auch noch schnee .
+dev/17October_2009_Saturday_tagesschau-2133|der wind weht schwach bis mäßig im norden und osten und nordwesten auch frisch .
+dev/17October_2009_Saturday_tagesschau-2138|am donnerstag ist es freundlich und da etwas etwas regen und da regnet es freundlich und da etwas etwas schnee .
+dev/17October_2009_Saturday_tagesschau-2139|am tag ist es .
+dev/18November_2011_Friday_tagesschau-2143|im norden und nordwesten ist es noch noch freundlich und da etwas regen und da etwas regen und da etwas regen .
+dev/27September_2009_Sunday_tagesschau-2169|im norden und süden weht der wind schwach bis mäßig an der nordsee bis mäßig und da auch frisch .
+dev/27September_2009_Sunday_tagesschau-2170|heute nacht ist es klar .
+dev/06August_2010_Friday_tagesschau-2172|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/01March_2011_Tuesday_tagesschau-2209|am tag ist es .
+dev/01March_2011_Tuesday_tagesschau-2210|im norden und nordwesten ist es heute nacht noch klar und da regnet es klar .
+dev/01March_2011_Tuesday_tagesschau-2211|im süden ist es heute nacht noch noch noch noch klar und da ist es auch klar und da klar und es auch klar und es auch klar und da klar und da ist es auch klar und da auch
+dev/30December_2010_Thursday_tagesschau-2236|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/30October_2009_Friday_tagesschau-2275|der wind weht schwach bis mäßig an der wind aus frisch .
+dev/30October_2009_Friday_tagesschau-2276|heute nacht ist es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/07January_2010_Thursday_tagesschau-2301|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/07January_2010_Thursday_tagesschau-2302|am tag bis minus grad im osten und minus minus minus minus zwei grad .
+dev/07June_2010_Monday_heute-2322|und es wird es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch noch noch noch noch kühler .
+dev/07June_2010_Monday_heute-2327|im süden und osten und da heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/26September_2009_Saturday_tagesschau-2333|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/26September_2009_Saturday_tagesschau-2335|am tag ist es im norden und osten und nordwesten etwas etwas sonne .
+dev/26September_2009_Saturday_tagesschau-2342|heute nacht minus minus minus minus minus minus minus minus minus zwei grad .
+dev/26September_2009_Saturday_tagesschau-2343|morgen temperaturen und minus minus zwei grad am tag bis minus grad .
+dev/12March_2011_Saturday_tagesschau-2455|am tag bis minus grad im osten und minus minus minus grad .
+dev/15September_2010_Wednesday_heute-2476|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/10February_2010_Wednesday_tagesschau-2524|am tag ist es im süden und osten und da etwas sonne .
+dev/25November_2010_Thursday_tagesschau-2529|im süden ist es noch schnee und es trocken und im süden teilweise schnee und da schnee .
+dev/25November_2010_Thursday_tagesschau-2530|im süden ist es heute nacht noch noch klar und da regnet es auch klar und da regnet es auch schnee .
+dev/25November_2010_Thursday_tagesschau-2536|am tag ist es noch freundlich und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/12January_2010_Tuesday_heute-2545|und es wird es noch noch noch noch noch noch noch noch noch noch schnee und da regen und da regen und da regen und da regen und da regen und da regen und da werden und da regen und
+dev/12January_2010_Tuesday_heute-2546|morgen ist es noch noch noch schnee und es auch noch noch schnee und da schnee und da schnee und da schnee .
+dev/09December_2009_Wednesday_tagesschau-2561|im norden und nordwesten bis minus minus minus minus minus minus minus zwei grad .
+dev/09December_2009_Wednesday_tagesschau-2562|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/12July_2009_Sunday_tagesschau-2573|morgen ist es noch freundlich und da wolken und da etwas sonne und da etwas sonne .
+dev/12July_2009_Sunday_tagesschau-2574|im süden und süden heute nacht noch schauer und gewitter und gewitter .
+dev/06July_2010_Tuesday_tagesschau-2653|im süden heute nacht ist es meist klar und im süden und süden teilweise klar .
+dev/06July_2010_Tuesday_tagesschau-2654|die aussichten am tag ist es meist klar und da ist es klar .
+dev/05January_2010_Tuesday_tagesschau-2672|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/19January_2011_Wednesday_heute-2680|und da wird es noch noch noch noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/01October_2010_Friday_tagesschau-2691|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/31January_2013_Thursday_tagesschau-2710|im süden ist es heute nacht noch noch noch schnee und da regnet es noch noch noch klar und da klar und da klar .
+dev/02November_2010_Tuesday_heute-2742|guten abend liebe zuschauer .
+dev/02November_2010_Tuesday_heute-2754|und da haben wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir wir bis minus minus minus minus minus minus minus minus
+dev/01July_2011_Friday_tagesschau-2763|im süden und süden ist es noch noch noch etwas etwas sonne und da etwas etwas sonne und da klar und da etwas regen .
+dev/01July_2011_Friday_tagesschau-2765|heute nacht minus minus minus minus minus minus minus minus minus grad .
+dev/01July_2011_Friday_tagesschau-2766|am tag bis minus grad im osten und minus zwei grad im osten und südwesten und bis minus minus minus zwei grad .
+dev/03August_2010_Tuesday_tagesschau-2776|im norden und nordwesten und nordwesten schauer und gewitter und gewitter .
+dev/26January_2010_Tuesday_tagesschau-2787|am tag ist es im süden und osten und da etwas schnee oder schnee oder schnee und da etwas schnee .
+dev/08February_2010_Monday_tagesschau-2796|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/28January_2010_Thursday_tagesschau-2817|am sonntag ist es im süden und osten und osten und da regnet es freundlich und da etwas schnee .
+dev/05February_2010_Friday_tagesschau-2919|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/05February_2010_Friday_tagesschau-2920|und nun die wettervorhersage für morgen tag minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/20September_2010_Monday_heute-2934|und es wird es wird es wird es wird es wird es wird auch noch noch trocken .
+dev/20September_2010_Monday_heute-2935|und es wird es wird es wird es wird es wird es wird es wird auch noch noch noch noch kühler .
+dev/29September_2012_Saturday_tagesschau-2966|am tag ist es im osten und osten und osten und da regnet es freundlich und da etwas schnee .
+dev/29September_2012_Saturday_tagesschau-2967|am tag ist es im norden und nordwesten etwas schnee .
+dev/09August_2010_Monday_tagesschau-3000|im süden und nordwesten regnet es noch noch schauer und gewitter und gewitter und gewitter .
+dev/09August_2010_Monday_tagesschau-3004|am tag ist es freundlich und da wolken und da regnet es freundlich und da regnet es auch mal sonne und gewitter .
+dev/07October_2012_Sunday_tagesschau-3026|heute nacht ist es noch klar und es trocken .
+dev/01December_2011_Thursday_heute-3058|und es wird es noch noch noch noch noch noch noch noch regen und da regnet es auch noch etwas regen .
+dev/01December_2011_Thursday_heute-3060|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/01December_2011_Thursday_heute-3061|im süden und osten und da haben es heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/20April_2011_Wednesday_tagesschau-3084|im süden und süden ist es noch noch noch noch noch schauer und gewitter und gewitter und da regnet es auch schnee und gewitter .
+dev/21April_2010_Wednesday_heute-3122|und es wird es wird es noch noch noch noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen kühler und da und da da da und da und da da da da
+dev/21April_2010_Wednesday_heute-3124|und nun die wettervorhersage für morgen donnerstag den nächsten oktober .
+dev/05September_2010_Sunday_tagesschau-3132|heute nacht ist es klar und da klar und da klar und da klar und da klar klar .
+dev/24May_2010_Monday_tagesschau-3142|heute nacht ist es klar und da klar und da regnet es klar und da klar und da klar .
+dev/20May_2010_Thursday_tagesschau-3151|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/20February_2011_Sunday_tagesschau-3164|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/20February_2011_Sunday_tagesschau-3166|am tag regnet es im süden und osten und da etwas schnee .
+dev/20December_2010_Monday_tagesschau-3199|im norden und nordwesten noch ein paar regen und es wird es wird es wird es wird es wird es wird es wird es wird es wird es wird es wird .
+dev/20December_2010_Monday_tagesschau-3204|im süden und süden heute nacht noch noch klar und da ist es trocken .
+dev/20December_2010_Monday_tagesschau-3205|im süden ist es noch schnee und es auch schnee und da regen und es auch schnee .
+dev/20December_2010_Monday_tagesschau-3208|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/26August_2009_Wednesday_tagesschau-3225|am tag ist es im süden und osten und da regnet es noch etwas etwas regen und da regnet es auch schnee und da regnet es auch schnee und da etwas schnee und da regnet es etwas schnee und da
+dev/27August_2009_Thursday_tagesschau-3276|im süden und süden regnet es im süden und osten und da regnet es auch noch etwas regen und gewitter .
+dev/27August_2009_Thursday_tagesschau-3284|am sonntag ist es freundlich .
+dev/27August_2009_Thursday_tagesschau-3285|im süden .
+dev/27August_2009_Thursday_tagesschau-3286|am donnerstag ist es freundlich und da freundlich und es wird es wird es wird es freundlich .
+dev/04July_2009_Saturday_tagesschau-3345|am dienstag ist es im osten und osten und osten und da regnet es freundlich und da regnet es freundlich und gewitter .
+dev/26April_2010_Monday_heute-3398|im süden heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/23September_2010_Thursday_tagesschau-3444|heute nacht ist es meist trocken und trocken und es trocken .
+dev/02September_2010_Thursday_heute-3456|im süden und osten und da regen und da da regnet es noch noch noch noch noch noch schnee und da auch schnee und da regnet es auch schnee und da da da regnet es auch schnee und da da
+dev/02September_2010_Thursday_heute-3457|morgen wird es noch freundlich .
+dev/25September_2010_Saturday_tagesschau-3480|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/02October_2012_Tuesday_heute-3494|heute nacht ist es im süden und osten und da regnet es noch noch noch klar und da regnet es klar und da klar und da regnet es auch klar und da klar und da regnet es klar und da
+dev/11December_2009_Friday_tagesschau-3509|am tag .
+dev/06January_2010_Wednesday_heute-3523|heute nacht ist es heute nacht und da klar und da regnet es noch noch noch noch klar .
+dev/06January_2010_Wednesday_heute-3525|morgen ist es im osten und osten und da regen und da regnet es noch noch noch noch schnee und da regen .
+dev/06January_2010_Wednesday_heute-3530|der wind weht schwach bis mäßig und es auch frisch und da ist es auch auch frisch und da auch sturmböen .
+dev/05April_2010_Monday_tagesschau-3546|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/20October_2009_Tuesday_tagesschau-3586|und nun die wettervorhersage für morgen donnerstag den dreizehnten februar .
+dev/20October_2009_Tuesday_tagesschau-3594|heute nacht ist es im osten und osten und da regnet es klar und da regnet es klar .
+dev/20October_2009_Tuesday_tagesschau-3595|der wind weht schwach bis mäßig an der nordsee bis mäßig .
+dev/02December_2010_Thursday_tagesschau-3636|im süden ist es meist freundlich und da freundlich .
+dev/02December_2010_Thursday_tagesschau-3637|im süden .
+dev/22November_2011_Tuesday_tagesschau-3647|und nun die wettervorhersage für morgen donnerstag den nächsten tagen tagen und da wird es wird es wird es wird es wird es wird es wird es trocken .
+dev/23April_2010_Friday_tagesschau-3667|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/23April_2010_Friday_tagesschau-3668|am tag bis minus grad an der nordsee und minus zwei grad .
+dev/30May_2011_Monday_heute-3677|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da temperaturen und da temperaturen und da temperaturen und da temperaturen bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/24January_2011_Monday_tagesschau-3712|im norden und nordwesten .
+dev/24January_2011_Monday_tagesschau-3720|der wind weht schwach bis mäßig an der nordsee und gewittern auch frisch .
+dev/23February_2011_Wednesday_heute-3780|guten abend liebe zuschauer .
+dev/10August_2010_Tuesday_tagesschau-3865|im süden heute nacht ist es klar und da klar und da regnet es klar und da regnet es klar und da klar klar klar .
+dev/25June_2010_Friday_tagesschau-3884|am tag bis minus grad im osten und minus minus minus zwei grad .
+dev/25June_2010_Friday_tagesschau-3887|am tag ist es freundlich und da freundlich .
+dev/12September_2010_Sunday_tagesschau-3919|am sonntag ist es .
+dev/08April_2010_Thursday_tagesschau-3949|das tief über dem norden und dem osten und dem osten und da ist es wird es wird es noch noch noch noch noch ein bisschen ein bisschen ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen ein paar
+dev/24April_2010_Saturday_tagesschau-3963|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/08January_2010_Friday_tagesschau-3984|am tag ist es im osten und osten und osten und da regnet es trocken und trocken und trocken und trocken .
+dev/04May_2011_Wednesday_heute-3996|und es wird es noch noch noch noch noch noch noch noch noch noch minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/08April_2010_Thursday_heute-4004|und es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch .
+dev/30September_2012_Sunday_tagesschau-4033|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/30September_2012_Sunday_tagesschau-4037|am tag .
+dev/30September_2012_Sunday_tagesschau-4038|am donnerstag ist es im norden und nordwesten teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise schnee und gewitter .
+dev/24June_2011_Friday_tagesschau-4071|morgen ist es meist freundlich und da freundlich und da freundlich und da etwas schnee .
+dev/24June_2011_Friday_tagesschau-4073|morgen im norden und nordwesten bis mäßig an der nordsee bis mäßig an der nordsee und gewittern .
+dev/05September_2009_Saturday_tagesschau-4078|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/19February_2010_Friday_tagesschau-4101|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/10April_2010_Saturday_tagesschau-4140|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/07December_2010_Tuesday_tagesschau-4152|am tag bis minus minus minus minus minus minus minus minus grad .
+dev/18September_2010_Saturday_tagesschau-4197|am tag ist es freundlich und da freundlich und da sonne und da sonne und da sonne und da sonne und es wird es auch mal sonne .
+dev/08December_2009_Tuesday_heute-4211|und nun die wettervorhersage für morgen donnerstag den nächsten .
+dev/08December_2009_Tuesday_heute-4212|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/08December_2009_Tuesday_heute-4213|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/29September_2011_Thursday_heute-4235|guten abend liebe zuschauer .
+dev/26August_2010_Thursday_tagesschau-4265|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/24October_2009_Saturday_tagesschau-4283|im süden ist es freundlich .
+dev/24October_2009_Saturday_tagesschau-4284|im norden und nordwesten heute nacht bis minus minus minus minus grad .
+dev/24October_2009_Saturday_tagesschau-4285|im süden ist es freundlich und da freundlich und da freundlich und da etwas sonne .
+dev/31May_2011_Tuesday_tagesschau-4294|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/31May_2011_Tuesday_tagesschau-4295|im süden ist es noch freundlich und da freundlich und da sonne und da wolken die sonne .
+dev/13July_2010_Tuesday_tagesschau-4317|im süden und süden heute nacht noch schauer und gewitter und da regnet es auch klar und gewitter und gewitter .
+dev/22June_2011_Wednesday_heute-4381|das hoch über dem osten und dem osten und da wird es wird es noch noch noch noch noch noch noch ein bisschen ein bisschen bisschen ein bisschen ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen ein bisschen
+dev/23August_2010_Monday_tagesschau-4429|im süden ist es heute nacht noch noch noch klar und da regnet es klar und da regnet es klar und da klar .
+dev/23August_2010_Monday_tagesschau-4430|und nun die wettervorhersage für gewitter .
+dev/23August_2010_Monday_tagesschau-4438|im süden ist es freundlich und trocken .
+dev/29June_2011_Wednesday_tagesschau-4482|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/09February_2010_Tuesday_tagesschau-4495|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/09February_2010_Tuesday_tagesschau-4496|im norden und nordwesten .
+dev/09February_2010_Tuesday_tagesschau-4497|und es wird es .
+dev/01July_2009_Wednesday_tagesschau-4555|morgen ist es im norden und osten und da schauer und gewitter .
+dev/11October_2010_Monday_tagesschau-4607|im süden ist es noch noch noch schnee und da etwas regen und da regnet es auch schnee und da etwas schnee .
+dev/11October_2010_Monday_tagesschau-4612|am tag bis minus grad im osten und minus zwei grad im süden und osten und da ist es teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise teilweise .
+dev/11October_2010_Monday_tagesschau-4615|am tag ist es im norden und osten und da regnet es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur und da etwas schnee und
+dev/30November_2010_Tuesday_tagesschau-4617|das tief über der mitte und dem osten und da ist es wird es wird es noch noch noch trocken .
+dev/30November_2010_Tuesday_tagesschau-4618|im norden und nordwesten ist es noch freundlich und da regen und da regnet es trocken und da etwas schnee .
+dev/30November_2010_Tuesday_tagesschau-4620|heute nacht ist es klar und im süden klar und da klar und da klar und da klar klar .
+dev/30November_2010_Tuesday_tagesschau-4621|am tag ist es im süden .
+dev/01February_2011_Tuesday_heute-4637|und es wird es wird es noch noch noch noch noch noch trocken und da trocken und da trocken und da wird es wird es wird es auch trocken .
+dev/28September_2009_Monday_tagesschau-4679|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/28September_2009_Monday_tagesschau-4680|am tag ist es im osten und osten und da regnet es nur nur nur nur nur nur nur bis minus minus minus minus minus minus minus minus grad .
+dev/19March_2011_Saturday_tagesschau-4690|und morgen ist es noch noch noch noch noch noch trocken und da ist es auch trocken und da trocken und da auch auch auch auch trocken .
+dev/19March_2011_Saturday_tagesschau-4697|im norden und süden ist es noch freundlich und da etwas etwas etwas schnee .
+dev/05December_2009_Saturday_tagesschau-4701|und nun die wettervorhersage für morgen donnerstag den alpen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/21January_2011_Friday_tagesschau-4890|im süden ist es noch schnee und es auch schnee und da regnet es auch schnee .
+dev/21November_2009_Saturday_tagesschau-4905|im süden ist es heute nacht noch noch noch klar und da regnet es klar und da regnet es auch schnee und da klar .
+dev/21November_2009_Saturday_tagesschau-4906|im süden und süden weht der wind schwach bis mäßig im norden und süden weht der wind .
+dev/21November_2009_Saturday_tagesschau-4911|am tag ist es freundlich und wolken und da wolken und da regnet es etwas schnee .
+dev/25April_2010_Sunday_tagesschau-4942|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch schnee und da ist es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch noch noch
+dev/25April_2010_Sunday_tagesschau-4951|am tag ist es freundlich und minus minus fünf grad am oberrhein und da regnet es freundlich .
+dev/25April_2010_Sunday_tagesschau-4952|am tag ist es .
+dev/22March_2011_Tuesday_tagesschau-4956|heute nacht ist es klar und da klar und da klar und da ist es klar und da klar klar klar klar .
+dev/01February_2011_Tuesday_tagesschau-4975|im süden .
+dev/01February_2011_Tuesday_tagesschau-4976|am freitag ist es im osten und osten und osten ist es freundlich und trocken und trocken .
+dev/28February_2011_Monday_tagesschau-4984|der wind weht schwach bis mäßig an der nordsee und an der nordsee und es auch frisch und auch frisch .
+dev/01June_2010_Tuesday_tagesschau-5002|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten oktober .
+dev/10March_2011_Thursday_tagesschau-5086|am sonntag ist es im osten und osten und da regnet es freundlich und da regnet es freundlich und da etwas schnee .
+dev/24December_2010_Friday_tagesschau-5128|im norden und süden regnet es auch schnee und da regnet es auch schnee .
+dev/24December_2010_Friday_tagesschau-5129|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/31August_2010_Tuesday_tagesschau-5174|der wind weht schwach bis mäßig an der nordsee bis mäßig .
+dev/15September_2010_Wednesday_tagesschau-5209|am sonntag ist es im süden und osten und osten und im süden regnet es freundlich und osten und osten und osten etwas schnee .
+dev/15September_2010_Wednesday_tagesschau-5210|am sonntag ist es im süden und osten und da regnet es freundlich und da regnet es freundlich und da freundlich und da etwas etwas etwas schnee .
+dev/16May_2010_Sunday_tagesschau-5227|heute nacht ist es im süden und osten und da regnet es klar und da regnet es klar und da klar und da klar klar .
+dev/20July_2010_Tuesday_heute-5251|und nun die wettervorhersage für morgen donnerstag den nächsten tagen tagen und es wird es wird es wird es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch noch noch noch noch
+dev/27July_2010_Tuesday_heute-5261|guten abend .
+dev/23August_2010_Monday_heute-5319|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/23August_2010_Monday_heute-5320|und es wird es noch noch noch noch noch noch noch noch noch regen und da regnet es auch noch schnee und da regnet es auch schnee .
+dev/23August_2010_Monday_heute-5321|im süden und süden regnet es noch noch noch noch gewitter und gewitter .
+dev/08October_2009_Thursday_tagesschau-5348|heute nacht ist es im süden und osten und da klar und da regnet es klar .
+dev/08October_2009_Thursday_tagesschau-5349|im süden .
+dev/08October_2009_Thursday_tagesschau-5350|im süden und süden regnet es noch noch noch schnee und gewitter .
+dev/08October_2009_Thursday_tagesschau-5351|morgen ist es noch noch noch noch klar und da klar und da regnet es auch mal sonne und da klar .
+dev/07December_2011_Wednesday_tagesschau-5399|am tag regnet es im westen und nordwesten regen und gewitter .
+dev/10December_2011_Saturday_tagesschau-5420|am tag ist es noch freundlich und es wird es wird es auch freundlich .
+dev/10December_2011_Saturday_tagesschau-5421|am tag ist es windig .
+dev/10December_2011_Saturday_tagesschau-5422|am tag regnet es im süden und osten und da regnet es auch schnee .
+dev/10December_2011_Saturday_tagesschau-5423|und es wird es wird es wird es wird es wird auch noch noch noch noch noch trocken .
+dev/21November_2011_Monday_heute-5433|im süden und süden heute nacht noch schnee und da etwas regen .
+dev/21November_2011_Monday_heute-5434|am tag ist es noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen fünf grad und da und da und da etwas sonne und da da da da da sonne und da bis minus minus minus minus minus
+dev/22November_2009_Sunday_tagesschau-5490|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/23July_2011_Saturday_tagesschau-5498|am tag ist es im osten und nordwesten noch schnee und da regnet es windig .
+dev/08June_2010_Tuesday_tagesschau-5527|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/06October_2011_Thursday_heute-5532|guten abend liebe zuschauer .
+dev/17January_2010_Sunday_tagesschau-5554|am tag ist es noch schnee und da etwas schnee oder schnee oder schnee und da regnet es klar .
+dev/17January_2010_Sunday_tagesschau-5555|im süden und süden bleibt es noch freundlich .
+dev/18November_2009_Wednesday_tagesschau-5583|heute nacht ist es klar und da klar und da klar .
+dev/18November_2009_Wednesday_tagesschau-5584|morgen ist es noch noch ein bisschen bisschen bisschen bisschen ein paar paar paar paar paar paar paar paar paar paar schnee .
+dev/18November_2009_Wednesday_tagesschau-5585|die aussichten .
+dev/18November_2009_Wednesday_tagesschau-5586|und nun die wettervorhersage für morgen donnerstag den nächsten tagen tagen .
+dev/18November_2009_Wednesday_tagesschau-5587|im süden heute nacht ist es meist klar und es trocken .
+dev/12December_2010_Sunday_tagesschau-5597|heute nacht ist es noch noch noch klar und da klar und da ist es klar und da klar und da klar klar klar und da ist es auch schnee und da klar und da klar und da klar und
+dev/12December_2010_Sunday_tagesschau-5605|am tag minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/29November_2011_Tuesday_tagesschau-5612|im norden und nordwesten heute nacht noch wolken und da regnet es klar und da regnet es klar .
+dev/29November_2011_Tuesday_tagesschau-5619|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/07December_2010_Tuesday_heute-5626|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und es wird es noch noch noch noch noch schnee .
+dev/30March_2010_Tuesday_tagesschau-5694|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/26March_2011_Saturday_tagesschau-5730|im süden ist es noch etwas schnee .
+dev/26March_2011_Saturday_tagesschau-5731|am tag ist es meist freundlich und wolken und da freundlich und da freundlich .
+dev/30November_2009_Monday_tagesschau-5749|im süden und süden bleibt es noch noch noch schnee und da regnet es trocken und da auch schnee .
+dev/30November_2009_Monday_tagesschau-5755|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/26October_2010_Tuesday_tagesschau-5789|am tag ist es im norden und osten und da regnet es freundlich und da regnet es etwas schnee und da regnet es auch schnee .
+dev/26October_2010_Tuesday_tagesschau-5796|im norden .
+dev/12December_2011_Monday_heute-5806|im norden und nordwesten auch frisch an der nordsee auch frisch .
+dev/26November_2011_Saturday_tagesschau-5848|im norden und nordwesten ist es heute nacht noch noch klar und es auch stark stark stark stark stark stark bis mäßiger bis mäßiger bis mäßiger bis mäßiger .
+dev/09August_2010_Monday_heute-5905|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/09August_2010_Monday_heute-5906|guten abend liebe zuschauer .
+dev/16December_2009_Wednesday_tagesschau-5918|am tag ist es im süden und osten und osten teilweise freundlich und da regnet es freundlich und da etwas schnee .
+dev/04October_2010_Monday_heute-5945|guten abend liebe zuschauer .
+dev/04October_2010_Monday_heute-5954|und nun die wettervorhersage für morgen donnerstag den alpen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/25August_2010_Wednesday_heute-6001|heute nacht ist es noch noch noch noch noch noch regen und da regnet es noch noch noch noch schnee und da regen und da ist es noch schnee und da klar und da ist es noch noch ein paar
+dev/25August_2010_Wednesday_heute-6008|und es wird es noch .
+dev/25August_2010_Wednesday_heute-6009|guten abend .
+dev/07April_2010_Wednesday_tagesschau-6029|im süden und süden regnet es noch noch noch noch noch etwas regen und da regnet es noch etwas schnee und da regnet es auch klar und da etwas schnee und da regnet es noch etwas schnee und da regnet
+dev/13February_2010_Saturday_tagesschau-6036|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/13February_2010_Saturday_tagesschau-6044|am tag ist es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur und da etwas schnee .
+dev/24September_2009_Thursday_heute-6077|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da ist es wird es noch noch noch noch noch noch ein bisschen bisschen bisschen ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen ein bisschen
+dev/16February_2010_Tuesday_tagesschau-6098|im süden und nordwesten noch schnee und es noch schnee und da regnet es noch schnee und da regnet es auch schnee und da regnet es auch schnee .
+dev/27October_2009_Tuesday_tagesschau-6148|im norden und nordwesten ist es heute nacht noch noch freundlich und da regnet es noch etwas regen und da klar .
+dev/26July_2010_Monday_tagesschau-6256|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/16September_2010_Thursday_tagesschau-6271|im süden und süden bleibt es im süden und süden noch freundlich und da ist es trocken .
+dev/16September_2010_Thursday_tagesschau-6272|heute nacht regnet es im süden und osten und da regnet es auch noch etwas schnee und da regnet es auch schnee .
+dev/16September_2010_Thursday_tagesschau-6276|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/30November_2011_Wednesday_tagesschau-6289|und nun die wettervorhersage für morgen donnerstag den alpen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad
+dev/30November_2011_Wednesday_tagesschau-6291|am tag ist es freundlich .
+dev/30November_2011_Wednesday_tagesschau-6292|am sonntag ist es noch noch etwas schnee und es auch schnee und da regnet es auch schnee und gewitter und gewitter und gewitter .
+dev/10August_2011_Wednesday_tagesschau-6303|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/10August_2011_Wednesday_tagesschau-6304|im süden und süden ist es noch noch noch noch noch schauer und gewitter und gewitter und gewitter und gewitter und gewitter .
+dev/10August_2011_Wednesday_tagesschau-6305|am tag ist es noch freundlich und minus minus minus minus minus minus minus minus minus minus minus minus minus zwei grad .
+dev/17February_2011_Thursday_tagesschau-6307|im süden ist es noch noch noch trocken und da trocken und da ist es trocken und da trocken und da trocken .
+dev/24January_2013_Thursday_tagesschau-6323|im süden und süden heute nacht noch schnee und da regnet es noch etwas schnee und da klar und da klar .
+dev/24January_2013_Thursday_tagesschau-6327|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/30January_2011_Sunday_tagesschau-6345|und nun die wettervorhersage für morgen donnerstag den dreizehnten februar .
+dev/10January_2011_Monday_tagesschau-6404|heute nacht ist es klar und es klar und da ist es trocken und es trocken .
+dev/10January_2011_Monday_tagesschau-6409|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/05April_2011_Tuesday_tagesschau-6420|im norden und nordwesten ist es meist freundlich und da etwas sonne und da wolken und da wolken .
+dev/06May_2011_Friday_tagesschau-6438|am tag ist es im osten und osten und gewitter und gewitter und gewitter die sonne und gewitter .
+dev/04July_2011_Monday_heute-6440|und nun die wettervorhersage für morgen donnerstag den nächsten februar .
+dev/04July_2011_Monday_heute-6441|und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/23May_2011_Monday_heute-6459|es wird es wird es noch noch noch noch trocken und da wird es wird es auch auch auch sturmböen .
+dev/23May_2011_Monday_heute-6461|heute nacht ist es noch klar und da klar und da regnet es auch klar und gewitter und gewitter .
+dev/23May_2011_Monday_heute-6466|am sonntag ist es .
+dev/23September_2010_Thursday_heute-6476|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/29January_2010_Friday_tagesschau-6489|morgen ist es noch noch noch ein bisschen bisschen bisschen ein paar paar paar paar paar wolken und da etwas schnee .
+dev/29January_2010_Friday_tagesschau-6490|heute nacht ist es im osten und osten und da regnet es noch noch noch schnee und da regnet es noch schnee und da regnet es noch schnee und da schnee und da schnee und da schnee und da schnee
+dev/03November_2010_Wednesday_tagesschau-6505|im süden und süden heute nacht noch schnee und da ist es trocken .
+dev/03November_2010_Wednesday_tagesschau-6506|im süden und osten und da regen und es auch noch noch noch schnee und es auch noch schnee und es auch schnee und da auch sturmböen .
+dev/03November_2010_Wednesday_tagesschau-6507|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/20June_2011_Monday_heute-6514|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/20June_2011_Monday_heute-6521|am tag ist es noch etwas schnee und da regnet es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur und da etwas schnee und da
+dev/16December_2011_Friday_tagesschau-6529|im süden und nordwesten noch regen und es noch noch regen und da regnet es auch schnee und da regen .
+dev/16December_2011_Friday_tagesschau-6532|morgen regnet es im osten und osten und da regnet es auch noch noch noch schnee und da regnet es auch schnee und da regnet es auch schnee .
+dev/16April_2010_Friday_tagesschau-6577|die aussichten in der mitte und da wolken und da ist es wird es noch noch freundlich und da etwas etwas etwas etwas etwas sonne .
+dev/12September_2009_Saturday_tagesschau-6589|und nun die wettervorhersage für morgen donnerstag den alpen und da regnet es auch noch noch noch etwas schnee .
+dev/12September_2009_Saturday_tagesschau-6590|am tag ist es im süden und osten und osten und da regnet es regnet es klar und da regnet es klar .
+dev/12September_2009_Saturday_tagesschau-6591|am tag ist es im süden und osten und da regnet es noch noch etwas schnee und da etwas schnee und da etwas schnee .
+dev/24July_2011_Sunday_tagesschau-6621|und es wird es wird es wird es wird es wird auch wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder .
+dev/24July_2011_Sunday_tagesschau-6622|und da gibt es noch noch noch noch schauer und gewitter .
+dev/01April_2010_Thursday_heute-6697|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/01April_2010_Thursday_heute-6698|und es wird es wird es wird es wird es wird auch noch noch noch noch noch noch noch noch noch noch schnee .
+dev/12November_2009_Thursday_tagesschau-6770|morgen ist es noch noch ein paar wolken und da regnet es klar und da regnet es klar und da klar .
+dev/12November_2009_Thursday_tagesschau-6771|im süden ist es meist freundlich und da wolken und da sonne und da sonne und da wolken und da sonne und da etwas sonne .
+dev/12November_2009_Thursday_tagesschau-6772|im süden ist es noch freundlich und da etwas schnee und da etwas schnee .
+dev/02June_2010_Wednesday_heute-6796|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und gewitter und gewitter und gewitter .
+dev/13December_2009_Sunday_tagesschau-6822|im süden und süden heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad
+dev/06December_2011_Tuesday_tagesschau-6842|im süden und süden regnet es noch noch noch noch noch noch schnee und da regnet es auch schnee und da regnet es auch schnee und da regnet es auch schnee und da regnet es auch schnee und da regnet
+dev/06July_2011_Wednesday_tagesschau-6870|am tag bis minus grad im osten und minus minus minus zwei grad an der nordsee und bis minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/10August_2009_Monday_heute-6891|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da ist es wird es wird es noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen
+dev/10August_2009_Monday_heute-6892|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch noch noch schnee .
+dev/06February_2011_Sunday_tagesschau-6914|heute nacht ist es im süden und osten und da ist es auch klar und da klar und da klar .
+dev/06February_2011_Sunday_tagesschau-6917|morgen temperaturen und minus minus minus minus minus minus minus minus minus zwei grad .
+dev/24January_2011_Monday_heute-6980|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/24January_2011_Monday_heute-6983|im süden und süden ist es noch noch noch noch noch noch schnee und da ist es auch mal sonne und da auch mal sonne und da auch mal sonne und da ist es auch mal sonne und da ist
+dev/24January_2011_Monday_heute-6984|und es wird es wird es noch noch noch noch noch noch noch noch noch noch schnee und da regen und es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch noch
+dev/17January_2011_Monday_tagesschau-7001|im süden ist es heute nacht noch freundlich und da ist es trocken und da trocken .
+dev/17January_2011_Monday_tagesschau-7003|im norden und nordwesten ist es noch schnee und da regnet es etwas schnee und da etwas schnee .
+dev/20September_2010_Monday_tagesschau-7029|und es wird es wird es wird es wird es wird auch noch noch etwas schnee .
+dev/29November_2009_Sunday_tagesschau-7043|morgen ist es noch noch noch noch schnee und da regen und da regen und da regen und da regen und da regen und da regen und da regen und da regen und da schnee und da regen und da
+dev/03March_2011_Thursday_tagesschau-7064|am tag bis minus grad im osten und minus minus minus minus zwei grad .
+dev/19January_2011_Wednesday_tagesschau-7068|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/25August_2009_Tuesday_tagesschau-7090|heute nacht ist es meist trocken .
+dev/25August_2009_Tuesday_tagesschau-7091|morgen schwacher bis mäßiger bis mäßiger bis mäßiger bis mäßig an der nordsee bis mäßig .
+dev/25August_2009_Tuesday_tagesschau-7093|morgen bis minus grad im norden und südwesten und minus zwei grad .
+dev/25August_2009_Tuesday_tagesschau-7094|im süden und süden ist es noch noch noch noch noch noch etwas sonne und da klar und da sonne und da klar und da etwas sonne und da schauer und da klar und da schauer und da etwas etwas
+dev/09July_2009_Thursday_tagesschau-7110|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/09July_2009_Thursday_tagesschau-7122|am sonntag ist es im süden und osten und da ist es freundlich und da ist es freundlich und da freundlich und gewitter .
+dev/30March_2011_Wednesday_tagesschau-7127|am tag ist es noch freundlich und da sonne und da sonne und da etwas sonne und da sonne und da etwas etwas sonne und da sonne und da sonne und da sonne und da etwas sonne und da sonne
+dev/30March_2011_Wednesday_tagesschau-7130|im süden und süden heute nacht noch klar und da regnet es auch klar und da regnet es klar und da klar .
+dev/31October_2009_Saturday_tagesschau-7147|heute nacht ist es heute nacht und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/02June_2010_Wednesday_tagesschau-7160|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/01May_2010_Saturday_tagesschau-7197|am tag ist es im süden und osten und osten und da regnet es freundlich und da freundlich .
+dev/04July_2010_Sunday_tagesschau-7198|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/04July_2010_Sunday_tagesschau-7199|im süden und süden noch noch schauer und gewitter und da regnet es noch noch noch noch noch noch gewitter .
+dev/10November_2009_Tuesday_tagesschau-7250|am donnerstag ist es freundlich und wolken und da wolken und da regnet es freundlich und da etwas schnee .
+dev/24January_2013_Thursday_heute-7254|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/24January_2013_Thursday_heute-7265|und es wird es heute nacht bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/26April_2010_Monday_tagesschau-7271|im süden und süden bleibt es noch noch noch schnee .
+dev/26April_2010_Monday_tagesschau-7273|im süden und süden ist es noch noch noch noch noch noch etwas regen und da regnet es auch noch schnee und da klar und da regnet es auch schnee und da ist es auch schnee und da klar und
+dev/20March_2010_Saturday_heute-7288|morgen ist es dann dann noch noch ein bisschen bisschen bisschen bisschen kühler .
+dev/20March_2010_Saturday_heute-7296|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch noch noch noch schnee und es wird es wird es wird es wird es wird es wird auch noch noch noch noch noch noch
+dev/20March_2010_Saturday_heute-7297|im süden regnet es noch schnee und da regen .
+dev/27June_2010_Sunday_tagesschau-7386|am donnerstag ist es noch freundlich und gewitter und gewitter und gewitter und gewitter .
+dev/04January_2010_Monday_heute-7399|und nun die wettervorhersage für morgen tag minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/04January_2010_Monday_heute-7401|heute nacht ist es noch noch noch klar und es trocken und da ist es trocken .
+dev/29July_2010_Thursday_tagesschau-7411|im süden und süden ist es noch noch freundlich und da etwas sonne und da etwas regen und da etwas schnee und da etwas regen .
+dev/15February_2011_Tuesday_tagesschau-7468|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/10December_2009_Thursday_tagesschau-7482|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/28May_2010_Friday_tagesschau-7496|im süden ist es noch freundlich und da freundlich und da ist es noch freundlich und da trocken und da trocken .
+dev/13July_2009_Monday_tagesschau-7513|im süden und süden regnet es noch noch noch noch noch schauer und gewitter und gewitter und gewitter und gewitter .
+dev/16July_2011_Saturday_tagesschau-7524|heute nacht ist es noch noch klar und es klar und da regnet es klar und da regnet es auch klar und da regnet es auch klar .
+dev/09February_2011_Wednesday_heute-7538|heute nacht ist es noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen ein bisschen bisschen bisschen bisschen ein bisschen bisschen bisschen ein bisschen ein bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen bisschen
+dev/23September_2009_Wednesday_tagesschau-7582|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und da wird es wird es wird es wird es wird es wird es wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder wieder
+dev/23September_2009_Wednesday_tagesschau-7583|im süden heute nacht ist es noch noch noch klar und da regnet es klar .
+dev/23September_2009_Wednesday_tagesschau-7593|am sonntag ist es im süden und osten und da regnet es auch schnee und gewitter .
+dev/09April_2010_Friday_tagesschau-7623|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/09April_2010_Friday_tagesschau-7632|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/03October_2012_Wednesday_tagesschau-7651|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/03October_2012_Wednesday_tagesschau-7655|im süden ist es trocken .
+dev/03October_2012_Wednesday_tagesschau-7656|morgen ist es meist klar und da nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur .
+dev/03October_2012_Wednesday_tagesschau-7657|im norden und nordwesten .
+dev/29June_2010_Tuesday_tagesschau-7704|im norden und nordwesten bis mäßig an der nordsee bis mäßig im norden und nordwesten auch frisch .
+dev/29June_2010_Tuesday_tagesschau-7705|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/15October_2009_Thursday_tagesschau-7719|morgen temperaturen und minus minus minus minus minus minus minus minus zwei grad .
+dev/06January_2010_Wednesday_tagesschau-7726|und da wird es noch noch noch noch noch noch noch noch ein paar paar paar paar paar paar paar paar schnee und da da regen und da da da da da da ist es noch ein paar paar paar
+dev/11February_2011_Friday_tagesschau-7755|am tag ist es noch noch freundlich und es nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur nur bis minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/25January_2013_Friday_tagesschau-7813|am tag regnet es im norden und nordwesten etwas regen und da regnet es etwas regen und da regnet es etwas schnee .
+dev/25January_2013_Friday_tagesschau-7815|morgen ist es noch freundlich und da etwas sonne und da etwas sonne und da etwas sonne und da etwas sonne .
+dev/23January_2011_Sunday_tagesschau-7834|am tag ist es im norden und osten und da regnet es etwas schnee .
+dev/05February_2011_Saturday_tagesschau-7855|heute nacht ist es im süden und osten und es trocken .
+dev/26May_2010_Wednesday_heute-7867|morgen ist es im süden und osten und da regnet es auch noch noch noch schnee und da regnet es auch schnee .
+dev/20July_2010_Tuesday_tagesschau-7877|im süden und nordwesten noch ein paar paar schauer und da schauer und gewitter .
+dev/20July_2010_Tuesday_tagesschau-7883|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/13May_2010_Thursday_tagesschau-7916|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/13May_2010_Thursday_tagesschau-7926|am tag ist es .
+dev/04February_2010_Thursday_heute-7966|heute nacht ist es noch noch noch noch noch noch noch noch noch minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/04February_2010_Thursday_heute-7970|und da wird es noch noch noch noch noch noch noch noch noch ein bisschen bisschen bisschen bisschen bisschen bisschen ein bisschen bisschen bisschen kühler und da da da da da da da ist es wird es wird es auch
+dev/02December_2011_Friday_tagesschau-8009|heute nacht ist es im süden und osten und da regnet es noch noch schnee und da regnet es klar und da regnet es klar .
+dev/02December_2011_Friday_tagesschau-8010|im süden ist es heute nacht noch klar und da klar und es klar und da klar .
+dev/21July_2009_Tuesday_tagesschau-8061|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/21July_2009_Tuesday_tagesschau-8062|im süden und süden regnet es noch noch schauer und gewitter .
+dev/16January_2010_Saturday_tagesschau-8073|im süden und süden ist es noch noch noch schnee und da regnet es noch schnee und da klar und da regen und da regen und es auch schnee und da regen und da regnet es auch schnee und da
+dev/29November_2011_Tuesday_heute-8095|guten abend .
+dev/07April_2011_Thursday_tagesschau-8102|im norden und nordwesten ist es auch noch noch stark stark stark stark stark stark stark stark stark stark stark sturmböen .
+dev/29March_2011_Tuesday_tagesschau-8117|heute nacht ist es nur nur nur nur nur nur nur nur nur nur nur bis minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/27May_2011_Friday_tagesschau-8122|morgen ist es noch freundlich und da freundlich und es wird es wird es wird es trocken .
+dev/27May_2011_Friday_tagesschau-8133|am dienstag ist es im norden und nordwesten noch regen und gewitter und gewitter und gewitter und gewitter .
+dev/11January_2011_Tuesday_heute-8176|am tag ist es im osten und westen und da regen und da regnet es wird es noch etwas regen .
+dev/22July_2010_Thursday_tagesschau-8194|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/22July_2010_Thursday_tagesschau-8195|im süden ist es heute nacht noch freundlich und da klar und da regnet es klar und da klar .
+dev/09June_2010_Wednesday_heute-8266|und nun die wettervorhersage für morgen donnerstag den nächsten tagen und es wird es wird es wird es auch noch noch noch noch schnee und auch schnee und da regen und da wird es wird es wird es auch noch
+dev/12December_2011_Monday_tagesschau-8281|morgen temperaturen und minus minus zwei grad im osten und da ist es noch noch klar und da klar und da etwas etwas etwas etwas regen .
+dev/12December_2011_Monday_tagesschau-8282|am freitag ist es windig und windig und es windig .
+dev/25January_2010_Monday_tagesschau-8298|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/25January_2010_Monday_tagesschau-8305|im norden und süden weht der wind schwach bis mäßig an der nordsee auch frisch und gewittern .
+dev/29March_2010_Monday_tagesschau-8384|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/03September_2010_Friday_tagesschau-8423|es wird es wird es .
+dev/03September_2010_Friday_tagesschau-8424|am tag ist es noch freundlich und es freundlich und auch freundlich und es wird es wird es auch freundlich .
+dev/03September_2010_Friday_tagesschau-8432|am tag bis minus grad im osten und minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/02December_2010_Thursday_heute-8444|guten abend liebe zuschauer .
+dev/02December_2010_Thursday_heute-8445|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch noch noch noch noch schnee und da da da da da da da da da da werden .
+dev/17May_2010_Monday_tagesschau-8473|im süden ist es noch freundlich und da trocken und da regnet es trocken und da trocken .
+dev/17May_2010_Monday_tagesschau-8477|am tag ist es freundlich und da wolken und da regnet es freundlich und da regnet es freundlich und da etwas schnee .
+dev/13August_2009_Thursday_tagesschau-8487|der wind weht schwach bis mäßig an der nordsee und gewittern .
+dev/20October_2010_Wednesday_heute-8493|guten abend liebe zuschauer .
+dev/20October_2010_Wednesday_heute-8494|und es wird es wird es noch noch noch noch noch noch noch noch noch noch schnee und da trocken .
+dev/20October_2010_Wednesday_heute-8501|im süden und süden bleibt es noch noch noch noch noch noch noch trocken und da trocken und da ist es auch mal sonne und da trocken .
+dev/28July_2011_Thursday_tagesschau-8521|im süden und osten und nordwesten noch regen und gewitter und gewitter und gewitter und gewitter und gewitter .
+dev/29September_2009_Tuesday_tagesschau-8538|im norden und süden heute nacht bis mäßig an der nordsee bis mäßig an der nordsee bis mäßig und da auch frisch .
+dev/09May_2011_Monday_tagesschau-8583|und nun die wettervorhersage für morgen donnerstag den alpen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/09May_2011_Monday_tagesschau-8585|am tag ist es im süden und osten und gewitter und gewitter .
+dev/09May_2011_Monday_tagesschau-8586|und nun die wettervorhersage für morgen donnerstag den nächsten tagen .
+dev/30July_2011_Saturday_tagesschau-8591|im süden und osten und da regen und da da da regnet es noch noch noch noch noch noch noch noch noch etwas regen und da noch etwas regen und da da da da da da da da da etwas
+dev/13November_2009_Friday_tagesschau-8610|heute nacht minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/29April_2010_Thursday_heute-8622|und nun die wettervorhersage für morgen donnerstag den alpen und gewitter und gewitter .
+dev/29April_2010_Thursday_heute-8623|morgen temperaturen und minus minus minus minus minus minus minus minus minus minus minus minus minus minus grad .
+dev/29April_2010_Thursday_heute-8625|und es wird es noch noch noch noch noch noch noch noch noch noch noch noch noch noch minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
+dev/11April_2010_Sunday_tagesschau-8639|im norden und nordwesten auch im norden und osten und nordwesten auch frisch und es auch frisch .
+dev/11December_2010_Saturday_tagesschau-8657|und nun die wettervorhersage für morgen donnerstag den neunundzwanzigsten februar .
+dev/11December_2010_Saturday_tagesschau-8659|morgen ist es meist freundlich und da sonne und da sonne und da sonne .
+dev/24January_2010_Sunday_tagesschau-8710|im süden und süden schwacher bis mäßiger bis mäßig im norden und osten und osten und da ist es auch frisch .
+dev/15July_2011_Friday_tagesschau-8726|morgen temperaturen und minus minus zwei grad im norden und minus zwei grad .
+dev/06October_2012_Saturday_tagesschau-8729|und nun die wettervorhersage für morgen donnerstag den alpen und nun die wettervorhersage für morgen donnerstag den alpen .
+dev/06October_2012_Saturday_tagesschau-8730|morgen ist es noch freundlich und da etwas regen und da etwas regen .
+dev/06October_2012_Saturday_tagesschau-8744|am tag ist es freundlich und da freundlich und es freundlich und trocken .
+dev/23March_2011_Wednesday_tagesschau-8751|im süden ist es heute nacht noch klar und da klar und da klar und da klar und da klar .
+dev/27January_2013_Sunday_tagesschau-8836|heute nacht ist es heute nacht und minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus minus
