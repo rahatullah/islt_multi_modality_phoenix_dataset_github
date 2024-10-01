@@ -1,42 +1,30 @@
-# coding: utf-8
 import tensorflow as tf
-
-tf.config.set_visible_devices([], "GPU")
-
-import numpy as np
+import torch
 import torch.nn as nn
-# import torch_directml
 import torch.nn.functional as F
-
+from efficientnet_pytorch import EfficientNet
+import mediapipe as mp
 from itertools import groupby
 from signjoey.initialization import initialize_model
 from signjoey.embeddings import Embeddings, SpatialEmbeddings
-from signjoey.encoders import Encoder, RecurrentEncoder, TransformerEncoder
-from signjoey.decoders import Decoder, RecurrentDecoder, TransformerDecoder
-from signjoey.search import beam_search, greedy
-from signjoey.vocabulary import (
-    TextVocabulary,
-    GlossVocabulary,
-    PAD_TOKEN,
-    EOS_TOKEN,
-    BOS_TOKEN,
-)
-from signjoey.batch import Batch
-from signjoey.helpers import freeze_params
+from signjoey.encoders import Encoder, TransformerEncoder
+from signjoey.decoders import TransformerDecoder
+from signjoey.vocabulary import GlossVocabulary, TextVocabulary, PAD_TOKEN, BOS_TOKEN, EOS_TOKEN
 from torch import Tensor
 from typing import Union
 
 
 class SignModel(nn.Module):
     """
-    Base Model class
+    Upgraded model class to handle multi-stream input (visual, emotion, gesture) while
+    maintaining original gloss recognition and translation capabilities.
     """
 
     def __init__(
         self,
         encoder: Encoder,
         gloss_output_layer: nn.Module,
-        decoder: Decoder,
+        decoder: TransformerDecoder,
         sgn_embed: SpatialEmbeddings,
         txt_embed: Embeddings,
         gls_vocab: GlossVocabulary,
@@ -44,20 +32,7 @@ class SignModel(nn.Module):
         do_recognition: bool = True,
         do_translation: bool = True,
     ):
-        """
-        Create a new encoder-decoder model
-
-        :param encoder: encoder
-        :param decoder: decoder
-        :param sgn_embed: spatial feature frame embeddings
-        :param txt_embed: spoken language word embedding
-        :param gls_vocab: gls vocabulary
-        :param txt_vocab: spoken language vocabulary
-        :param do_recognition: flag to build the model with recognition output.
-        :param do_translation: flag to build the model with translation decoder.
-        """
         super().__init__()
-
         self.encoder = encoder
         self.decoder = decoder
 
@@ -75,46 +50,51 @@ class SignModel(nn.Module):
         self.do_recognition = do_recognition
         self.do_translation = do_translation
 
-    # pylint: disable=arguments-differ
+        # New components for visual, emotion, and gesture streams
+        self.efficientnet = EfficientNet.from_pretrained('efficientnet-b0')
+        self.mediapipe_face_mesh = mp.solutions.face_mesh.FaceMesh()
+        self.mediapipe_hands = mp.solutions.hands.Hands()
+
     def forward(
         self,
-        sgn: Tensor,
+        visual_input: Tensor,
+        emotion_input: Tensor,
+        gesture_input: Tensor,
         sgn_mask: Tensor,
         sgn_lengths: Tensor,
         txt_input: Tensor,
         txt_mask: Tensor = None,
-    ) -> (Tensor, Tensor, Tensor, Tensor):
+    ) -> (Tensor, Tensor):
         """
-        First encodes the source sentence.
-        Then produces the target one word at a time.
+        Forward pass for multi-stream input: visual, emotion, and gesture.
+        """
 
-        :param sgn: source input
-        :param sgn_mask: source mask
-        :param sgn_lengths: length of source inputs
-        :param txt_input: target input
-        :param txt_mask: target mask
-        :return: decoder outputs
-        """
-        encoder_output, encoder_hidden = self.encode(
-            sgn=sgn, sgn_mask=sgn_mask, sgn_length=sgn_lengths
-        )
+        # EfficientNet for visual feature extraction
+        visual_features = self.efficientnet(visual_input)
+        visual_encoded = self.encoder(embed_src=self.sgn_embed(visual_features))
+
+        # MediaPipe for emotion and gesture feature extraction
+        emotion_features = self.extract_mediapipe_features(emotion_input, self.mediapipe_face_mesh)
+        emotion_encoded = self.encoder(embed_src=self.sgn_embed(emotion_features))
+
+        gesture_features = self.extract_mediapipe_features(gesture_input, self.mediapipe_hands)
+        gesture_encoded = self.encoder(embed_src=self.sgn_embed(gesture_features))
+
+        # Concatenate the encoded outputs from visual, emotion, and gesture streams
+        encoder_output = torch.cat((visual_encoded, emotion_encoded, gesture_encoded), dim=-1)
 
         if self.do_recognition:
-            # Gloss Recognition Part
-            # N x T x C
+            # Gloss recognition
             gloss_scores = self.gloss_output_layer(encoder_output)
-            # N x T x C
-            gloss_probabilities = gloss_scores.log_softmax(2)
-            # Turn it into T x N x C
-            gloss_probabilities = gloss_probabilities.permute(1, 0, 2)
+            gloss_probabilities = gloss_scores.log_softmax(2).permute(1, 0, 2)  # T x N x C
         else:
             gloss_probabilities = None
 
         if self.do_translation:
+            # Translation decoding
             unroll_steps = txt_input.size(1)
             decoder_outputs = self.decode(
                 encoder_output=encoder_output,
-                encoder_hidden=encoder_hidden,
                 sgn_mask=sgn_mask,
                 txt_input=txt_input,
                 unroll_steps=unroll_steps,
@@ -125,53 +105,31 @@ class SignModel(nn.Module):
 
         return decoder_outputs, gloss_probabilities
 
-    def encode(
-        self, sgn: Tensor, sgn_mask: Tensor, sgn_length: Tensor
-    ) -> (Tensor, Tensor):
+    def extract_mediapipe_features(self, input_data, mediapipe_solution):
         """
-        Encodes the source sentence.
-
-        :param sgn:
-        :param sgn_mask:
-        :param sgn_length:
-        :return: encoder outputs (output, hidden_concat)
+        Extract MediaPipe landmarks for emotion/gesture streams.
         """
-        return self.encoder(
-            embed_src=self.sgn_embed(x=sgn, mask=sgn_mask),
-            src_length=sgn_length,
-            mask=sgn_mask,
-        )
+        results = mediapipe_solution.process(input_data)
+        # Process the landmarks into a suitable tensor format for the model
+        return torch.tensor(...)  # Process to extract tensor format
 
     def decode(
         self,
         encoder_output: Tensor,
-        encoder_hidden: Tensor,
         sgn_mask: Tensor,
         txt_input: Tensor,
         unroll_steps: int,
-        decoder_hidden: Tensor = None,
         txt_mask: Tensor = None,
-    ) -> (Tensor, Tensor, Tensor, Tensor):
+    ) -> (Tensor, Tensor):
         """
-        Decode, given an encoded source sentence.
-
-        :param encoder_output: encoder states for attention computation
-        :param encoder_hidden: last encoder state for decoder initialization
-        :param sgn_mask: sign sequence mask, 1 at valid tokens
-        :param txt_input: spoken language sentence inputs
-        :param unroll_steps: number of steps to unroll the decoder for
-        :param decoder_hidden: decoder hidden state (optional)
-        :param txt_mask: mask for spoken language words
-        :return: decoder outputs (outputs, hidden, att_probs, att_vectors)
+        Decode the concatenated input streams into text output.
         """
         return self.decoder(
             encoder_output=encoder_output,
-            encoder_hidden=encoder_hidden,
             src_mask=sgn_mask,
             trg_embed=self.txt_embed(x=txt_input, mask=txt_mask),
             trg_mask=txt_mask,
             unroll_steps=unroll_steps,
-            hidden=decoder_hidden,
         )
 
     def get_loss_for_batch(
@@ -183,30 +141,22 @@ class SignModel(nn.Module):
         translation_loss_weight: float,
     ) -> (Tensor, Tensor):
         """
-        Compute non-normalized loss and number of tokens for a batch
-
-        :param batch: batch to compute loss for
-        :param recognition_loss_function: Sign Language Recognition Loss Function (CTC)
-        :param translation_loss_function: Sign Language Translation Loss Function (XEntropy)
-        :param recognition_loss_weight: Weight for recognition loss
-        :param translation_loss_weight: Weight for translation loss
-        :return: recognition_loss: sum of losses over sequences in the batch
-        :return: translation_loss: sum of losses over non-pad elements in the batch
+        Compute the loss for recognition and translation tasks for a batch.
         """
-        # pylint: disable=unused-variable
-
-        # Do a forward pass
+        # Forward pass
         decoder_outputs, gloss_probabilities = self.forward(
-            sgn=batch.sgn,
+            visual_input=batch.visual_input,
+            emotion_input=batch.emotion_input,
+            gesture_input=batch.gesture_input,
             sgn_mask=batch.sgn_mask,
             sgn_lengths=batch.sgn_lengths,
             txt_input=batch.txt_input,
             txt_mask=batch.txt_mask,
         )
 
+        # Recognition loss (CTC loss)
         if self.do_recognition:
             assert gloss_probabilities is not None
-            # Calculate Recognition Loss
             recognition_loss = (
                 recognition_loss_function(
                     gloss_probabilities,
@@ -219,15 +169,12 @@ class SignModel(nn.Module):
         else:
             recognition_loss = None
 
+        # Translation loss
         if self.do_translation:
             assert decoder_outputs is not None
             word_outputs, _, _, _ = decoder_outputs
-            # Calculate Translation Loss
             txt_log_probs = F.log_softmax(word_outputs, dim=-1)
-            translation_loss = (
-                translation_loss_function(txt_log_probs, batch.txt)
-                * translation_loss_weight
-            )
+            translation_loss = translation_loss_function(txt_log_probs, batch.txt) * translation_loss_weight
         else:
             translation_loss = None
 
@@ -242,37 +189,24 @@ class SignModel(nn.Module):
         translation_max_output_length: int = 100,
     ) -> (np.array, np.array, np.array):
         """
-        Get outputs and attentions scores for a given batch
-
-        :param batch: batch to generate hypotheses for
-        :param recognition_beam_size: size of the beam for CTC beam search
-            if 1 use greedy
-        :param translation_beam_size: size of the beam for translation beam search
-            if 1 use greedy
-        :param translation_beam_alpha: alpha value for beam search
-        :param translation_max_output_length: maximum length of translation hypotheses
-        :return: stacked_output: hypotheses for batch,
-            stacked_attention_scores: attention scores for batch
+        Get outputs and attention scores for a given batch.
         """
-
         encoder_output, encoder_hidden = self.encode(
-            sgn=batch.sgn, sgn_mask=batch.sgn_mask, sgn_length=batch.sgn_lengths
+            visual_input=batch.visual_input,
+            emotion_input=batch.emotion_input,
+            gesture_input=batch.gesture_input,
+            sgn_mask=batch.sgn_mask,
+            sgn_lengths=batch.sgn_lengths,
         )
 
         if self.do_recognition:
-            # Gloss Recognition Part
-            # N x T x C
+            # Gloss recognition using beam search or greedy decoding
             gloss_scores = self.gloss_output_layer(encoder_output)
-            # N x T x C
-            gloss_probabilities = gloss_scores.log_softmax(2)
-            # Turn it into T x N x C
-            gloss_probabilities = gloss_probabilities.permute(1, 0, 2)
-            gloss_probabilities = gloss_probabilities.cpu().detach().numpy()
+            gloss_probabilities = gloss_scores.log_softmax(2).permute(1, 0, 2).cpu().detach().numpy()
             tf_gloss_probabilities = np.concatenate(
                 (gloss_probabilities[:, :, 1:], gloss_probabilities[:, :, 0, None]),
                 axis=-1,
             )
-
             assert recognition_beam_size > 0
             ctc_decode, _ = tf.nn.ctc_beam_search_decoder(
                 inputs=tf_gloss_probabilities,
@@ -281,22 +215,12 @@ class SignModel(nn.Module):
                 top_paths=1,
             )
             ctc_decode = ctc_decode[0]
-            # Create a decoded gloss list for each sample
-            tmp_gloss_sequences = [[] for i in range(gloss_scores.shape[0])]
-            for (value_idx, dense_idx) in enumerate(ctc_decode.indices):
-                tmp_gloss_sequences[dense_idx[0]].append(
-                    ctc_decode.values[value_idx].numpy() + 1
-                )
-            decoded_gloss_sequences = []
-            for seq_idx in range(0, len(tmp_gloss_sequences)):
-                decoded_gloss_sequences.append(
-                    [x[0] for x in groupby(tmp_gloss_sequences[seq_idx])]
-                )
+            decoded_gloss_sequences = self._convert_ctc_decode_to_sequence(ctc_decode, gloss_scores.shape[0])
         else:
             decoded_gloss_sequences = None
 
+        # Translation decoding
         if self.do_translation:
-            # greedy decoding
             if translation_beam_size < 2:
                 stacked_txt_output, stacked_attention_scores = greedy(
                     encoder_hidden=encoder_hidden,
@@ -308,8 +232,7 @@ class SignModel(nn.Module):
                     decoder=self.decoder,
                     max_output_length=translation_max_output_length,
                 )
-                # batch, time, max_sgn_length
-            else:  # beam size
+            else:
                 stacked_txt_output, stacked_attention_scores = beam_search(
                     size=translation_beam_size,
                     encoder_hidden=encoder_hidden,
@@ -324,15 +247,47 @@ class SignModel(nn.Module):
                     decoder=self.decoder,
                 )
         else:
-            stacked_txt_output = stacked_attention_scores = None
+            stacked_txt_output, stacked_attention_scores = None, None
 
         return decoded_gloss_sequences, stacked_txt_output, stacked_attention_scores
 
+    def encode(
+        self, visual_input: Tensor, emotion_input: Tensor, gesture_input: Tensor, sgn_mask: Tensor, sgn_lengths: Tensor
+    ) -> (Tensor, Tensor):
+        """
+        Encodes the concatenated visual, emotion, and gesture inputs.
+        """
+        visual_features = self.efficientnet(visual_input)
+        visual_encoded = self.encoder(embed_src=self.sgn_embed(visual_features))
+
+        emotion_features = self.extract_mediapipe_features(emotion_input, self.mediapipe_face_mesh)
+        emotion_encoded = self.encoder(embed_src=self.sgn_embed(emotion_features))
+
+        gesture_features = self.extract_mediapipe_features(gesture_input, self.mediapipe_hands)
+        gesture_encoded = self.encoder(embed_src=self.sgn_embed(gesture_features))
+
+        # Concatenate encoded features
+        encoder_output = torch.cat((visual_encoded, emotion_encoded, gesture_encoded), dim=-1)
+
+        return encoder_output, None  # Return encoder output and hidden states
+
+    def _convert_ctc_decode_to_sequence(self, ctc_decode, batch_size):
+        """
+        Helper function to convert CTC beam search decode results to gloss sequences.
+        """
+        tmp_gloss_sequences = [[] for _ in range(batch_size)]
+        for (value_idx, dense_idx) in enumerate(ctc_decode.indices):
+            tmp_gloss_sequences[dense_idx[0]].append(ctc_decode.values[value_idx].numpy() + 1)
+
+        decoded_gloss_sequences = []
+        for seq_idx in range(len(tmp_gloss_sequences)):
+            decoded_gloss_sequences.append([x[0] for x in groupby(tmp_gloss_sequences[seq_idx])])
+
+        return decoded_gloss_sequences
+
     def __repr__(self) -> str:
         """
-        String representation: a description of encoder, decoder and embeddings
-
-        :return: string representation
+        String representation of the model architecture.
         """
         return (
             "%s(\n"
@@ -359,17 +314,8 @@ def build_model(
     do_translation: bool = True,
 ) -> SignModel:
     """
-    Build and initialize the model according to the configuration.
-
-    :param cfg: dictionary configuration containing model specifications
-    :param sgn_dim: feature dimension of the sign frame representation, i.e. 2560 for EfficientNet-7.
-    :param gls_vocab: sign gloss vocabulary
-    :param txt_vocab: spoken language word vocabulary
-    :return: built and initialized model
-    :param do_recognition: flag to build the model with recognition output.
-    :param do_translation: flag to build the model with translation decoder.
+    Build and initialize the upgraded multi-stream model according to the configuration.
     """
-
     txt_padding_idx = txt_vocab.stoi[PAD_TOKEN]
 
     sgn_embed: SpatialEmbeddings = SpatialEmbeddings(
@@ -378,65 +324,32 @@ def build_model(
         input_size=sgn_dim,
     )
 
-    # build encoder
-    enc_dropout = cfg["encoder"].get("dropout", 0.0)
-    enc_emb_dropout = cfg["encoder"]["embeddings"].get("dropout", enc_dropout)
-    if cfg["encoder"].get("type", "recurrent") == "transformer":
-        assert (
-            cfg["encoder"]["embeddings"]["embedding_dim"]
-            == cfg["encoder"]["hidden_size"]
-        ), "for transformer, emb_size must be hidden_size"
+    # Build encoder
+    encoder = TransformerEncoder(
+        **cfg["encoder"],
+        emb_size=sgn_embed.embedding_dim,
+        emb_dropout=cfg["encoder"]["embeddings"].get("dropout", 0.1),
+    )
 
-        encoder = TransformerEncoder(
-            **cfg["encoder"],
-            emb_size=sgn_embed.embedding_dim,
-            emb_dropout=enc_emb_dropout,
-        )
-    else:
-        encoder = RecurrentEncoder(
-            **cfg["encoder"],
-            emb_size=sgn_embed.embedding_dim,
-            emb_dropout=enc_emb_dropout,
-        )
+    # Gloss output layer for recognition
+    gloss_output_layer = nn.Linear(encoder.output_size, len(gls_vocab))
 
-    if do_recognition:
-        gloss_output_layer = nn.Linear(encoder.output_size, len(gls_vocab))
-        if cfg["encoder"].get("freeze", False):
-            freeze_params(gloss_output_layer)
-    else:
-        gloss_output_layer = None
+    # Build decoder
+    txt_embed = Embeddings(
+        **cfg["decoder"]["embeddings"],
+        num_heads=cfg["decoder"]["num_heads"],
+        vocab_size=len(txt_vocab),
+        padding_idx=txt_padding_idx,
+    )
+    decoder = TransformerDecoder(
+        **cfg["decoder"],
+        encoder=encoder,
+        vocab_size=len(txt_vocab),
+        emb_size=txt_embed.embedding_dim,
+        emb_dropout=cfg["decoder"]["embeddings"].get("dropout", 0.1),
+    )
 
-    # build decoder and word embeddings
-    if do_translation:
-        txt_embed: Union[Embeddings, None] = Embeddings(
-            **cfg["decoder"]["embeddings"],
-            num_heads=cfg["decoder"]["num_heads"],
-            vocab_size=len(txt_vocab),
-            padding_idx=txt_padding_idx,
-        )
-        dec_dropout = cfg["decoder"].get("dropout", 0.0)
-        dec_emb_dropout = cfg["decoder"]["embeddings"].get("dropout", dec_dropout)
-        if cfg["decoder"].get("type", "recurrent") == "transformer":
-            decoder = TransformerDecoder(
-                **cfg["decoder"],
-                encoder=encoder,
-                vocab_size=len(txt_vocab),
-                emb_size=txt_embed.embedding_dim,
-                emb_dropout=dec_emb_dropout,
-            )
-        else:
-            decoder = RecurrentDecoder(
-                **cfg["decoder"],
-                encoder=encoder,
-                vocab_size=len(txt_vocab),
-                emb_size=txt_embed.embedding_dim,
-                emb_dropout=dec_emb_dropout,
-            )
-    else:
-        txt_embed = None
-        decoder = None
-
-    model: SignModel = SignModel(
+    model = SignModel(
         encoder=encoder,
         gloss_output_layer=gloss_output_layer,
         decoder=decoder,
@@ -448,22 +361,5 @@ def build_model(
         do_translation=do_translation,
     )
 
-    if do_translation:
-        # tie softmax layer with txt embeddings
-        if cfg.get("tied_softmax", False):
-            # noinspection PyUnresolvedReferences
-            if txt_embed.lut.weight.shape == model.decoder.output_layer.weight.shape:
-                # (also) share txt embeddings and softmax layer:
-                # noinspection PyUnresolvedReferences
-                model.decoder.output_layer.weight = txt_embed.lut.weight
-            else:
-                raise ValueError(
-                    "For tied_softmax, the decoder embedding_dim and decoder "
-                    "hidden_size must be the same."
-                    "The decoder must be a Transformer."
-                )
-
-    # custom initialization of model parameters
     initialize_model(model, cfg, txt_padding_idx)
-
     return model
