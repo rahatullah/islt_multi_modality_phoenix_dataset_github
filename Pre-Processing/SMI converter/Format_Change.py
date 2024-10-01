@@ -1,55 +1,42 @@
 import os
-import re
-from html import unescape
-from datetime import timedelta
+import csv
 
+class SMIConverter:
+    def __init__(self, smi_path, output_path):
+        self.smi_path = smi_path
+        self.output_path = output_path
 
-def process_smi_files(input_dir, output_dir):
-    os.makedirs(output_dir, exist_ok=True)
+    def convert_smi_to_text(self):
+        # Convert all SMI files to timed text format
+        for smi_file in os.listdir(self.smi_path):
+            smi_data = self.load_smi(os.path.join(self.smi_path, smi_file))
+            timed_text = self.convert_to_timed_text(smi_data)
+            self.save_as_text(smi_file, timed_text)
 
-    smi_files = [f for f in os.listdir(input_dir) if f.endswith('.smi')]
+    def load_smi(self, smi_file):
+        # Load SMI format file (assuming it's CSV or similar)
+        with open(smi_file, 'r') as f:
+            reader = csv.reader(f)
+            smi_data = list(reader)
+        return smi_data
 
-    for smi_file_name in smi_files:
-        input_path = os.path.join(input_dir, smi_file_name)
-        output_path = os.path.join(output_dir, smi_file_name.replace('.smi', '.txt'))
+    def convert_to_timed_text(self, smi_data):
+        # Conversion logic from SMI to timed text
+        # For simplicity, returning smi_data as timed text
+        timed_text = []
+        for row in smi_data:
+            start_time, end_time, text = row
+            timed_text.append(f"{start_time} --> {end_time}\n{text}\n")
+        return timed_text
 
-        try:
-            process_single_smi_file(input_path, output_path)
-        except Exception as e:
-            print(f"Error processing {input_path}: {e}")
-
-
-def process_single_smi_file(input_path, output_path):
-    with open(input_path, 'rb') as smi_file:
-        smi_content = smi_file.read().decode('utf-8')
-
-    timed_plain_text = smi_file_to_timed_plain_text(smi_content)
-
-    if timed_plain_text.strip():
-        with open(output_path, 'w', encoding='utf-8') as output_file:
-            output_file.write(timed_plain_text)
-        print(f"Processed: {input_path} -> {output_path}")
-    else:
-        print(f"Skipping: {input_path} (empty output)")
-
-
-def smi_file_to_timed_plain_text(smi_content):
-    pattern = re.compile(r'<SYNC Start=(\d+)><P class=\'en-IN\'>(.*?)\n', re.DOTALL)
-    matches = pattern.findall(smi_content)
-
-    decoded_matches = [(timedelta(milliseconds=int(timestamp)), unescape(text)) for timestamp, text in matches]
-
-    formatted_matches = [f"{int(timestamp.total_seconds() // 60):02}:{int(timestamp.total_seconds() % 60):02}\n{text}" for timestamp, text in decoded_matches if text.strip()]
-
-    timed_plain_text = '\n'.join(formatted_matches)
-    return timed_plain_text
-
-
-
-
+    def save_as_text(self, smi_file, timed_text):
+        # Save timed text to output file
+        output_file = os.path.join(self.output_path, smi_file.replace(".smi", ".txt"))
+        with open(output_file, 'w') as f:
+            f.writelines(timed_text)
 
 if __name__ == "__main__":
-    input_directory = 'path/to/input/directory'
-    output_directory = 'path/to/output/directory'
-
-    process_smi_files(input_directory, output_directory)
+    smi_path = "./data/smi_files"
+    output_path = "./data/timed_text_files"
+    converter = SMIConverter(smi_path, output_path)
+    converter.convert_smi_to_text()
